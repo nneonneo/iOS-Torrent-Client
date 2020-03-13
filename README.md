@@ -15,3 +15,13 @@ A torrent client for iOS which runs on [play.js](https://playdotjs.com/) - witho
 2. Paste the magnet link you want to download in place of `magnet:paste-magnet-link-here`.
 3. Press the play button. The first time you run the project you will be prompted to resolve dependencies; accept and wait a bit while WebTorrent is downloaded.
 4. Sit back and watch the torrent download. When it's all done, you can use the Files app to copy or move your downloaded file anywhere you like.
+
+## Why
+
+My [iOS SOCKS Server](https://github.com/nneonneo/iOS-SOCKS-Server) makes it possible to do a lot of things on my computer through a faketethered mobile data connection, but torrenting doesn't work terribly well (even if you somehow manage to convince the torrent client to use the proxy). So, instead, I came up with this silly hack to get torrents to work on iOS.
+
+Of course, it's probably not a great idea to use this for anything real, especially over mobile data. So, consider it a proof-of-concept.
+
+## Tips
+
+- Safari doesn't apparently support copying magnet links, so as a workaround you can use Firefox (not Firefox Focus) for iOS and copy links by long-pressing them and selecting copy from the popup menu.

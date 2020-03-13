@@ -6,7 +6,7 @@ A torrent client for iOS which runs on [play.js](https://playdotjs.com/) - witho
 
 ## Installing
 
-1. Install play.js from the [App Store](https://itunes.apple.com/us/app/play-js/id1423330822)
+1. Install play.js from the [App Store](https://itunes.apple.com/us/app/play-js/id1423330822). It's a paid app (worth it, IMHO), but I'm not affiliated with them in any way.
 2. Create a new project (tap on the Editor), name it WebTorrent, type Node.js (default), and check "Clone from git repository". Tap Create.
 3. In the remote settings, fill in this repository's address (https://github.com/nneonneo/iOS-Torrent-Client) under Address. Leave username and password blank. Tap Clone.
 

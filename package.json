@@ -2,7 +2,7 @@
   "name": "WebTorrent-iOS",
   "version": "1.0.1",
   "dependencies": {
-    "webtorrent": "0.170.0",
+    "webtorrent": "0.107.0",
     "webtorrent-cli": "3.0.1"
   }
 }
